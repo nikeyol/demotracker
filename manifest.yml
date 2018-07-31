@@ -1,0 +1,8 @@
+---
+applications:
+- name: demo-tracker
+  path: build/libs/tracker-1.0-SNAPSHOT.jar
+  routes:
+  - route: joydemotracker-review.cfapps.io
+  env:
+    WELCOME_MESSAGE: Hello From Review Env
